@@ -1,0 +1,177 @@
+*{
+    font-family: Chewy;
+}
+.back{
+    background-color: #281d1d;
+}
+body{
+    background-color: #fbfaf0;
+}
+.header{
+    background-color: #281d1d;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between ;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+   
+
+  
+}
+nav ul a {
+    text-decoration: none;
+    
+    color: #fff;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+nav ul a:hover{
+    
+    border-bottom: 1px solid #fff;
+}
+nav h1{
+    color: #fff;
+    font-size: 25;
+    
+}
+/* .header{
+box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #333333;
+border-bottom: 1px solid #666666;
+} */
+
+
+
+
+
+
+/* .footer1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    margin-top: 50%;
+    margin-bottom: 0%;
+    background: #808080;
+
+} */
+*{
+    
+}
+
+.body{
+    position: relative;
+width: 100%;
+height: 90ex;
+background: #fbfaf0;
+float: inline-start;
+}
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    
+    overflow: hidden;
+  }
+
+.image1{
+
+    position: absolute;
+    width: 618px;
+    height: 70%;
+    margin-left: 211px;
+    margin-top: 80.68px;
+    background: url("E:\Users\WebDta\BaekwoDeliverySystem-MERN\client\public\Assets\pic.jpg");
+
+
+}
+
+
+.login{
+position: absolute;
+width: 277px;
+height: auto;
+margin-left: 60%;
+margin-top: 200.68px;
+
+}
+
+.field{
+    box-sizing: border-box;
+
+position: relative;
+width: 277px;
+height: 46.85px;
+margin-left: 10px;
+margin-top: 5.68px;
+text-indent: 10px;
+font-family: Chewy;
+background: #F8E9E9;
+mix-blend-mode: normal;
+border: 1px solid #F8E9E9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.loginButton{
+    position: absolute;
+    width: 277px;
+height: 46.85px;
+margin-left: 10px;
+margin-top: 15.68px;
+    
+    background: #392828;
+    border-radius: 15px;
+
+}
+
+.itext{
+    font-family: Chewy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    color: #FFFFFF;
+    background-color: #392828;
+    background-color: transparent;
+}
+.itext2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    color: #000000;
+    
+    background-color: transparent;
+}
+.field::placeholder{
+    font-family: Chewy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    text-indent: 10px;
+    color: #000000;
+    
+    background-color: transparent;
+}
