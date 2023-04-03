@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './Login.css';
-import { Navbar } from "@nextui-org/react";
+import Navbar from './Navbar';
 
 function mainPage (){
 
     return (
-        <div className='backGround'>
+        <div >
+            <Navbar isBordered variant="static"/> 
         <body  className="body">
-        <div className="header">
+        {/* <div className="header">
         <nav className='back' >
         <h1 className='back'>Hello</h1>
         <ul className='back'>
@@ -19,7 +20,9 @@ function mainPage (){
         </ul >
           </nav>
 
-            </div>
+            </div> */}
+
+            
 
             <div className="main">
             <div className='image1' ></div>
